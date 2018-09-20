@@ -8,14 +8,23 @@ To contribute to this project please follow the standard fork and pull procedure
 Project structure
 
 ####bin/www 
+
 This is where it all starts
+
 ####app.js 
+
 Actual entry point to the entire application and defining or all express routes 
+
 ####passport-init.js
+
 Using npm passport and passport-local module code for login, signout and updating users
+
 ####views
+
 All the initial views in express go here 
+
 ####routes 
+
  All your restful routes go here organized by each application. Please add separate application in separate folder
 
 ####public/controllers 
