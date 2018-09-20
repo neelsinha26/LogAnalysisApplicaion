@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to log aggregator!!!!! We help you analyze logs which we think is future of business intelligence!
 
 To contribute to this project please follow the standard fork and pull procedure. If you have no idea what that is, Google is your best friend.
@@ -32,3 +33,6 @@ models/ <-- Schema and models for mongo go here
 database/ <-- This contains our initial apt-cache control data
 
 test/ <--  Your test files go here
+=======
+# LogAnalysisApplicaion
+>>>>>>> d201d15979ac4b521eece489ce77490d7f9a5586
