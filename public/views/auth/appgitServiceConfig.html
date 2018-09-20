@@ -1,0 +1,41 @@
+<br>
+<div class="alert alert-success" ng-show="pass">
+  <a href="#" class="close" ng-click="pass=false" data-dismiss="alert" aria-label="close">&times;</a>
+  {{passMessage}}
+</div>
+<form class="form-horizontal" role="form" id="serviceTable" ng-init="getServiceConfig('appgittab')">
+  <div class="panel panel-info">
+    <div class="panel-heading clearfix">Apt Log database configuration details.
+      <a type="submit" href="#serviceConfig/appgittabedit" class="btn btn-primary pull-right">
+      <i class="glyphicon glyphicon-edit"></i>Edit</a></div>
+      <div class="panel-body">
+    <table class='table borderless'>
+      <tr>
+        <td class="text-left col-sm-1">
+        Database Host:
+        </td>
+        <td class="text-left col-sm-8">
+          {{appgitInfo.dbDetails.host}}
+        </td>
+      </tr>
+      <tr>
+        <td class="text-left col-sm-1">
+        Database Port:
+        </td>
+        <td class="text-left col-sm-8">
+            {{appgitInfo.dbDetails.port}}
+          </td>
+        </tr>
+        <tr>
+          <td class="text-left col-sm-1">
+            Database Name:
+          </td>
+          <td class="text-left col-sm-8">
+            {{appgitInfo.dbDetails.dbName}}
+          </td>
+        </tr>
+      </table>
+      </div>
+      </div>
+    </form>
+  </div>
